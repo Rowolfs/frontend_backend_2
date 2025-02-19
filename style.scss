@@ -1,0 +1,15 @@
+$flex-display: flex;
+$flex-margin: 10px;
+$button-color: #333;
+$button-background-color: #26b70c;
+.flex-container {
+    display: $flex-display;
+}
+.flex-item {
+    margin: $flex-margin;
+    
+}
+&.button:hover {
+    color: $button-color;
+    background-color: $button-background-color;
+}
