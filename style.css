@@ -1,14 +1,15 @@
-.flex-container {
-  display: flex;
-}
 
-.flex-item {
-  margin: 10px;
+
+.custom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .custom-button:hover {
-  color: #333;
-  background-color: #26b70c;
+    color: #333;
+    background-color: #26b70c;
+    justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
